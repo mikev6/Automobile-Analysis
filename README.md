@@ -33,7 +33,7 @@ The technical report is in the same Jupyter notebook, usin markdown.
 A copy of the input data is saved off here:
 https://github.com/mikev6/mv6-Automobile-Analysis/tree/main/data
 
-## Software Requirements - Packages used (5--)
+## Software Requirements
 The software packages used are:
   pandas
   numpy
