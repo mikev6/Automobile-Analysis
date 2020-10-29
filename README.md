@@ -18,7 +18,7 @@ I used a few sites as a guide, including:
 I got the data from here:
 https://archive.ics.uci.edu/ml/datasets/Automobile
 
-## Data (5-15)
+## Data
 There are 26 attributes and 206 entries. There are some missing values, but they few and far between. In one case, (bore and stroke), I removed the features, as engine size (displacement) was also given, so it was somewhat duplicative. In another, I removed a row as it had a missing piece of data that was interfering with the modeling tools.
 
 The data was orignially put together for insurance purposes, and it also quoted the price of the cars. I removed insurance-related data  (symboling, normalized-losses, price), as it was not relevant to the analysis, and this data would likely not be known at the juncture in which this model was used (pre-production, for example)
@@ -27,6 +27,7 @@ I downloaded this data from the website listed above and imported the csv with a
 ## Table of Content (5--)
 The code can be found here:
 https://github.com/mikev6/mv6-Automobile-Analysis/tree/main/code
+The technical report is in the same Jupyter notebook, usin markdown.
 
 A copy of the input data is saved off here:
 https://github.com/mikev6/mv6-Automobile-Analysis/tree/main/data
