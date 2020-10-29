@@ -24,7 +24,8 @@ There are 26 attributes and 206 entries. There are some missing values, but they
 The data was orignially put together for insurance purposes, and it also quoted the price of the cars. I removed insurance-related data  (symboling, normalized-losses, price), as it was not relevant to the analysis, and this data would likely not be known at the juncture in which this model was used (pre-production, for example)
 
 I downloaded this data from the website listed above and imported the csv with a Jupyer notebook.
-## Table of Content (5--)
+
+## Table of Content
 The code can be found here:
 https://github.com/mikev6/mv6-Automobile-Analysis/tree/main/code
 The technical report is in the same Jupyter notebook, usin markdown.
